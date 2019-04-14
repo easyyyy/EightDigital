@@ -10,7 +10,8 @@ if __name__ == '__main__':
     MainWindow = QMainWindow()
     ui = UiExt.UiExt()
     ui.setupUi(MainWindow)
-    ui.func()
 
+    ui.func()
     MainWindow.show()
+
     sys.exit(app.exec_())

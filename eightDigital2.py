@@ -61,10 +61,10 @@ if __name__ == "__main__":
 
     # srcLayout  = "835127460"
     # destLayout = "835107462"
-    # srcLayout  = "203184765"
-    # destLayout = "234108765"
-    srcLayout  = "541203786" #""013425786"
-    destLayout = "123804765" #"647850321"
+    srcLayout  = "203184765"
+    destLayout = "234108765"
+    # srcLayout  = "541203786" #""013425786"
+    # destLayout = "123804765" #"647850321"
 
     retCode, lst_steps = solvePuzzle_span(srcLayout, destLayout)
     print(retCode)
